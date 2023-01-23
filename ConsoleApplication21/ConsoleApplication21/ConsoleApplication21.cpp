@@ -8,14 +8,16 @@ using namespace std;
 void myFunc1(string fname) {
 	cout << fname << " Good gamer";
 }
-int myFunc(int x, int y) {
+int addNumbers(int x, int y) {
 	return x + y;
 }
 
 int main()
 {
+	setlocale(LC_ALL, "rus");
+
 	// TODO: Используй пробелы между операторами и переменными.
-	cout<<myFunc(45, 23)<<endl;
+	cout << addNumbers(45, 23) << endl;
 	myFunc1("Valera");
 }
 
