@@ -1,10 +1,10 @@
-// ConsoleApplication21.cpp : This file contains the 'main' function. Program execution begins and ends there.
+п»ї// ConsoleApplication21.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
 using namespace std;
 
-// TODO: Не используй "магические" вроде Функция1, переменная "переменная" и т.д. Используй читаемые имена: showGamerName(), addNumbers(), firstName и т.д.
+// TODO: РќРµ РёСЃРїРѕР»СЊР·СѓР№ "РјР°РіРёС‡РµСЃРєРёРµ" РІСЂРѕРґРµ Р¤СѓРЅРєС†РёСЏ1, РїРµСЂРµРјРµРЅРЅР°СЏ "РїРµСЂРµРјРµРЅРЅР°СЏ" Рё С‚.Рґ. РСЃРїРѕР»СЊР·СѓР№ С‡РёС‚Р°РµРјС‹Рµ РёРјРµРЅР°: showGamerName(), addNumbers(), firstName Рё С‚.Рґ.
 void myFunc1(string fname) {
 	cout << fname << " Good gamer";
 }
@@ -16,7 +16,7 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 
-	// TODO: Используй пробелы между операторами и переменными.
+	// TODO: РСЃРїРѕР»СЊР·СѓР№ РїСЂРѕР±РµР»С‹ РјРµР¶РґСѓ РѕРїРµСЂР°С‚РѕСЂР°РјРё Рё РїРµСЂРµРјРµРЅРЅС‹РјРё.
 	cout << addNumbers(45, 23) << endl;
 	myFunc1("Valera");
 }
@@ -32,7 +32,7 @@ int main()
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 
-// Как видишь я имею доступ к коду и могу его редактировать и комментировать.
-// В последствии я буду делать комментарии другими способами, но пока можно и так.
-// Запустить код на macOS у меня не вышло, буду перезагружаться на Windows.
-// Проверка кодировки языка.
+// РљР°Рє РІРёРґРёС€СЊ СЏ РёРјРµСЋ РґРѕСЃС‚СѓРї Рє РєРѕРґСѓ Рё РјРѕРіСѓ РµРіРѕ СЂРµРґР°РєС‚РёСЂРѕРІР°С‚СЊ Рё РєРѕРјРјРµРЅС‚РёСЂРѕРІР°С‚СЊ.
+// Р’ РїРѕСЃР»РµРґСЃС‚РІРёРё СЏ Р±СѓРґСѓ РґРµР»Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё РґСЂСѓРіРёРјРё СЃРїРѕСЃРѕР±Р°РјРё, РЅРѕ РїРѕРєР° РјРѕР¶РЅРѕ Рё С‚Р°Рє.
+// Р—Р°РїСѓСЃС‚РёС‚СЊ РєРѕРґ РЅР° macOS Сѓ РјРµРЅСЏ РЅРµ РІС‹С€Р»Рѕ, Р±СѓРґСѓ РїРµСЂРµР·Р°РіСЂСѓР¶Р°С‚СЊСЃСЏ РЅР° Windows.
+// РџСЂРѕРІРµСЂРєР° РєРѕРґРёСЂРѕРІРєРё СЏР·С‹РєР°.
