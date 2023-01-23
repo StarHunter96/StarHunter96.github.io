@@ -4,6 +4,7 @@
 #include <iostream>
 using namespace std;
 
+// TODO: Не используй "магические" вроде Функция1, переменная "переменная" и т.д. Используй читаемые имена: showGamerName(), addNumbers(), firstName и т.д.
 void myFunc1(string fname) {
 	cout << fname << " Good gamer";
 }
@@ -13,6 +14,7 @@ int myFunc(int x, int y) {
 
 int main()
 {
+	// TODO: Используй пробелы между операторами и переменными.
 	cout<<myFunc(45, 23)<<endl;
 	myFunc1("Valera");
 }
@@ -27,3 +29,7 @@ int main()
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
+// Как видишь я имею доступ к коду и могу его редактировать и комментировать.
+// В последствии я буду делать комментарии другими способами, но пока можно и так.
+// Запустить код на macOS у меня не вышло, буду перезагружаться на Windows.
